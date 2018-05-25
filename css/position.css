@@ -1,3 +1,16 @@
 .position_slide_2 {
     float: left;
+    text-align: left;
+    color: white;
+    position: relative;
+    top:-10px;
+    right: 120px;
+    height: 300px;
+    width:1000px;
 }
+
+.about_us {
+    color: white;
+    font-size: 30px;
+}
+
