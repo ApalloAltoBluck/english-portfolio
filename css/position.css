@@ -3,9 +3,10 @@
     text-align: left;
     color: white;
     position: relative;
-    top:-10px;
+    top:150px;
     right: 120px;
     height: 300px;
+    
     width:1000px;
 }
 
@@ -14,3 +15,12 @@
     font-size: 30px;
 }
 
+.logo_pos {
+    z-index: 3;
+    position: relative;
+    float:right;
+    width:440px;
+    height:625px;
+    left:130px;
+    bottom:300px;
+}
