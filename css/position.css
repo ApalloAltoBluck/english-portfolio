@@ -16,6 +16,7 @@
     right: 120px;
     height: 300px;
     width:1000px;
+    background-image: url("blueback.png");
 }
 
 
@@ -37,14 +38,18 @@
     right: 120px;
     height: 300px;
     width:1000px;
-    white-space: nowrap;
+    white-space: nowrap;    
+}
 
-    
+.we_operate {
+    position: relative;
+    top:100px;
 }
 
 .we_hive {
     position: absolute;
     text-align: left;
     float: left;
-    right: 530px;
+    right: 490px;
+    bottom: 180px;
 }
