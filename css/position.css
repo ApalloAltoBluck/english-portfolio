@@ -1,19 +1,23 @@
+@font-face {
+    font-family: MSemiBold;
+    src: url(Montserrat-SemiBold.ttf);  
+}
+
+@font-face {
+    font-family: Mlight;
+    src: url(Montserrat-light.ttf);
+}
+
 .position_slide_2 {
     float: left;
     text-align: left;
-    color: white;
     position: relative;
     top:150px;
     right: 120px;
     height: 300px;
-    
     width:1000px;
 }
 
-.about_us {
-    color: white;
-    font-size: 30px;
-}
 
 .logo_pos {
     z-index: 3;
@@ -23,4 +27,24 @@
     height:625px;
     left:130px;
     bottom:300px;
+}
+
+.position_slide_3
+{
+    float: left;
+    text-align: left;
+    position: relative;
+    right: 120px;
+    height: 300px;
+    width:1000px;
+    white-space: nowrap;
+
+    
+}
+
+.we_hive {
+    position: absolute;
+    text-align: left;
+    float: left;
+    right: 530px;
 }
