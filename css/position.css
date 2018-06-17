@@ -30,7 +30,7 @@
     bottom:300px;
 }
 
-.position_slide_3
+.position_slide_3 
 {
     float: left;
     text-align: left;
@@ -41,15 +41,47 @@
     white-space: nowrap;    
 }
 
-.we_operate {
+.we_operate 
+{
     position: relative;
     top:100px;
 }
 
-.we_hive {
+.we_hive
+ {
     position: absolute;
     text-align: left;
     float: left;
     right: 490px;
     bottom: 180px;
+}
+
+.position_slide_5
+ {
+    float: left;
+    text-align: left;
+    position: relative;
+    right: 120px;
+    height: 300px;
+    width:1000px;
+    bottom: 19px;
+    white-space: nowrap;   
+}
+
+.last_logo 
+{
+    position:relative;
+    bottom:80px;
+}
+
+.mapouter{
+    z-index: 3;
+    position:relative;
+    bottom:210px;
+    left:500px;
+}
+
+.Form {
+    position: relative;
+    right:300px;
 }
