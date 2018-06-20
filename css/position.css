@@ -1,6 +1,6 @@
 @font-face {
     font-family: MSemiBold;
-    src: url(Montserrat-SemiBold.ttf);  
+    src: url(Montserrat-SemiBold.ttf);
 }
 
 @font-face {
@@ -8,47 +8,48 @@
     src: url(Montserrat-light.ttf);
 }
 
+@font-face {
+    font-family: monako;
+    src: url(MonaKo.ttf);
+}
+
 .position_slide_2 {
     float: left;
     text-align: left;
     position: relative;
-    top:150px;
+    top: 150px;
     right: 120px;
     height: 300px;
-    width:1000px;
+    width: 1000px;
     background-image: url("blueback.png");
 }
-
 
 .logo_pos {
     z-index: 3;
     position: relative;
-    float:right;
-    width:440px;
-    height:625px;
-    left:130px;
-    bottom:300px;
+    float: right;
+    width: 440px;
+    height: 625px;
+    left: 130px;
+    bottom: 300px;
 }
 
-.position_slide_3 
-{
+.position_slide_3 {
     float: left;
     text-align: left;
     position: relative;
     right: 120px;
     height: 300px;
-    width:1000px;
-    white-space: nowrap;    
+    width: 1000px;
+    white-space: nowrap;
 }
 
-.we_operate 
-{
+.we_operate {
     position: relative;
-    top:100px;
+    top: 100px;
 }
 
-.we_hive
- {
+.we_hive {
     position: absolute;
     text-align: left;
     float: left;
@@ -56,148 +57,94 @@
     bottom: 180px;
 }
 
-.position_slide_5
- {
+.position_slide_5 {
     float: left;
     text-align: left;
     position: relative;
     right: 120px;
     height: 300px;
-    width:1000px;
+    width: 1000px;
     bottom: 19px;
-    white-space: nowrap;   
+    white-space: nowrap;
 }
 
-.last_logo 
-{
-    position:relative;
-    bottom:50px;
-}
-
-.mapouter{
-    z-index: 3;
-    position:relative;
-    bottom:530px;
-    left:500px;
-}
-
-.Form {
+.last_logo {
     position: relative;
-    right:-100px;
-    bottom:100px;
-    box-shadow: black;
+    bottom: 50px;
 }
 
+.mapouter {
+    z-index: 3;
+    position: relative;
+    bottom: 450px;
+    left: 500px;
+}
 
-/* Web  */
+/* Web https://www.sanwebe.com/2014/08/css-html-forms-designs */
 
-.form-style-7{
-    max-width:400px;
-    margin:50px auto;
-    background:#fff;
-    border-radius:2px;
-    padding:20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-.form-style-7 h1{
-    display: block;
-    text-align: center;
-    padding: 0;
-    margin: 0px 0px 20px 0px;
-    color: #5C5C5C;
-    font-size:x-large;
-}
-.form-style-7 ul{
-    list-style:none;
-    padding:0;
-    margin:0;   
-}
-.form-style-7 li{
-    display: block;
-    padding: 9px;
-    border:1px solid #DDDDDD;
-    margin-bottom: 30px;
-    border-radius: 3px;
-}
-.form-style-7 li:last-child{
-    border:none;
-    margin-bottom: 0px;
-    text-align: center;
-}
-.form-style-7 li > label{
-    display: block;
-    float: left;
-    margin-top: -19px;
-    background: #FFFFFF;
-    height: 14px;
-    padding: 2px 5px 2px 5px;
-    color: #B9B9B9;
-    font-size: 14px;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.form-style-7 input[type="text"],
-.form-style-7 input[type="date"],
-.form-style-7 input[type="datetime"],
-.form-style-7 input[type="email"],
-.form-style-7 input[type="number"],
-.form-style-7 input[type="search"],
-.form-style-7 input[type="time"],
-.form-style-7 input[type="url"],
-.form-style-7 input[type="password"],
-.form-style-7 textarea,
-.form-style-7 select 
-{
+input[type=text],
+select,
+textarea {
+    width: 30%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    display: block;
-    outline: none;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: rgb(76, 0, 218);
+    color: white;
+    padding: 12px 20px;
     border: none;
-    height: 25px;
-    line-height: 25px;
-    font-size: 16px;
-    padding: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    border-radius: 4px;
+    cursor: pointer;
 }
-.form-style-7 input[type="text"]:focus,
-.form-style-7 input[type="date"]:focus,
-.form-style-7 input[type="datetime"]:focus,
-.form-style-7 input[type="email"]:focus,
-.form-style-7 input[type="number"]:focus,
-.form-style-7 input[type="search"]:focus,
-.form-style-7 input[type="time"]:focus,
-.form-style-7 input[type="url"]:focus,
-.form-style-7 input[type="password"]:focus,
-.form-style-7 textarea:focus,
-.form-style-7 select:focus 
-{
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #0340a3;
 }
-.form-style-7 li > span{
-    background: #F3F3F3;
-    display: block;
-    padding: 3px;
-    margin: 0 -9px -9px -9px;
-    text-align: center;
-    color: #C0C0C0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
-.form-style-7 textarea{
-    resize:none;
-}
-.form-style-7 input[type="submit"],
-.form-style-7 input[type="button"]{
-    background: #2471FF;
+
+/* Hover */
+
+.effectfront {
     border: none;
-    padding: 10px 20px 10px 20px;
-    border-bottom: 3px solid #5994FF;
-    border-radius: 3px;
-    color: #D2E2FF;
+    margin: 0 auto;
 }
-.form-style-7 input[type="submit"]:hover,
-.form-style-7 input[type="button"]:hover{
-    background: #6B9FFF;
-    color:#fff;
+
+.effectfront:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.final_form {
+    position: relative;
+    right: 230px;
+    bottom: 100px;
 }
