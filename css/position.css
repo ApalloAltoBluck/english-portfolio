@@ -5,12 +5,16 @@
 
 @font-face {
     font-family: Mlight;
-    src: url(Montserrat-light.ttf);
+    src: url(Montserrat-Light.ttf);
 }
 
 @font-face {
     font-family: monako;
     src: url(MonaKo.ttf);
+}
+
+body {
+    font-family:Mlight;
 }
 
 .position_slide_2 {
