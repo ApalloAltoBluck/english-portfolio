@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "buckstarter-site",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
