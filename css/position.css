@@ -175,7 +175,7 @@ input[type=submit]:hover {
 
 /*  Fade in */
 
-.fade {
+.loadingAnimationBuckstarter {
     margin-top: 25px;
     font-size: 21px;
     text-align: center;
@@ -240,13 +240,4 @@ input[type=submit]:hover {
     transform:rotate(360deg);
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
-}
-
-.swal-title {
-    font-family:MSemiBold;
-}
-
-.swal-text{
-    font-family:Mlight;
-    text-align:center;
 }
