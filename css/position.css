@@ -241,3 +241,13 @@ input[type=submit]:hover {
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    bottom:40px;
+    color: black;
+    text-align: center;
+}
