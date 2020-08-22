@@ -15,7 +15,7 @@ import thirteen from "../../../public/static/img/buckstarterimgs/upcycle/13.jpg"
 export const upcycle = {
     title: "Upcycle",
     thumbnail: three,
-    description: "Siggi’s, one of America’s fastest growing yogurts, tapped Buckstarter for their first ever video campaign to introduce the brand to new audiences on Facebook, Instagram and Hulu. “What Simple Is” introduces how Siggi’s found its niche in the overcrowded yogurt category. Each video got an average of 600,000 views on YouTube within the first two weeks when it initially launched in 2017. Now it runs globally opening up new markets to the quirky simplicity of Siggi’s yogurt ",
+    description: "The problem of organic waste spun off by the production of human food is that it is dirty and ugly, and until now, un-recyclable. Buckstarter named and positioned this industrial waste management system as Upcycle Technologies. We also designed the logo, iconography, advertising and website and launched the brand across all platforms on Earth Day 2018. Welcome to the Age of Bio-Asset Recovery.",
     assets : [
         two,one,four,six,seven,eight,nine,ten,eleven,twelve,thirteen
     ]

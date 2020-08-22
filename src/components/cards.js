@@ -16,7 +16,7 @@ export default function Cards(props) {
 
   return (
     <>
-      <Col xs={6} md={4}>
+      <Col xs={6} md={4} className="mx-auto d-block cardsstyle">
         <Card className="bg-dark text-white" onClick={handleShow}>
           <Card.Img src={props.tileImage} alt="Card image" />
           <Card.ImgOverlay>

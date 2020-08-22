@@ -6,6 +6,16 @@
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-nprogress`,
+    options: {
+      // Setting a color is optional.
+      color: `tomato`,
+      // Disable the loading spinner.
+      showSpinner: false,
+    },
+    },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -19,7 +29,7 @@ module.exports = {
             variants: [`400`, `700`]
           }
         ],
-      },
-    }
+      }
+    },
   ]
 }

@@ -23,16 +23,18 @@ export default function Home() {
   return (
     <>  
       <Welcome></Welcome>
-      <Clients></Clients>
+      <Clients data-sal="slide-up"></Clients>
       <div className="mt-5"></div>
+      <h1 className="text-center">The Work</h1>
+
       <Carousel>
         <Carousel.Item>
         <Container>
-        <Row>
+        <Row >
           {/* For the video links, only use the numbers at the end of the link */}
           <Cards tileTitle={ica.title} tileImage={ica.thumbnail} tileDescription = {ica.description} images= {ica.assets} videos={ica.videos}/>
           <Cards tileTitle={crowdster.title} tileImage={crowdster.thumbnail} tileDescription = {crowdster.description} images= {crowdster.assets} videos={[]}/>
-          <Cards tileTitle={bnc.title} tileImage={bnc.thumbnail} tileDescription = {bnc.description} images= {bnc.assets} videos={[]}/> 
+          <Cards className="mx-auto d-block" tileTitle={bnc.title} tileImage={bnc.thumbnail} tileDescription = {bnc.description} images= {bnc.assets} videos={[]}/> 
         </Row>
         </Container>
         <div className="mt-5"></div>
@@ -42,7 +44,7 @@ export default function Home() {
         <Row>
           <Cards tileTitle={naturlich.title} tileImage={naturlich.thumbnail} tileDescription = {naturlich.description} images= {naturlich.assets} videos={[]}/>
           <Cards tileTitle={dlaw.title} tileImage={dlaw.thumbnail} tileDescription = {dlaw.description} images= {dlaw.assets} videos={dlaw.videos}/>
-          <Cards tileTitle={siggi.title} tileImage={siggi.thumbnail} tileDescription = {siggi.description} images= {siggi.assets} videos={siggi.videos}/> 
+          <Cards  tileTitle={siggi.title} tileImage={siggi.thumbnail} tileDescription = {siggi.description} images= {siggi.assets} videos={siggi.videos}/> 
         </Row>
         </Container>
         </Carousel.Item>

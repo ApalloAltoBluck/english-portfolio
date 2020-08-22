@@ -15,7 +15,7 @@ import ten from "../../public/static/img/buckstarterimgs/icons/10.png"
 export default function Clients(props) {
   return (
     <>
-    <Container>
+    <Container  data-sal="slide-up">
         <h1 className="text-center">Our Clients</h1>
         <div className="mt-5"></div>
         <div className="d-flex flex-wrap">
@@ -57,8 +57,10 @@ export default function Clients(props) {
             <div className="parallax-one">
             <Container>
                 <h1 className="hiveOperate text-center">We operate as a hive</h1>
-                <p className="hiveOperateSmall text-center">At buckstarter customized teams swarm to fill the need. We solve & dissolve. Low overhead cost structure means more value per scope.
-            We operate more like a holywood movie studio than an ad agency.</p>'
+                <p className="hiveOperateSmall text-center">As a branding studio, we relentlessly focus on the end-product, the quality of the output. We
+cherry-pick the best designers, strategists, creative directors, media planners or buyers,
+producers, or directors needed to get the job done well. We swarm just the right talent around
+the brand. And we work fast, with little to no waste.</p>'
             </Container>
             </div>
         </div>

@@ -11,7 +11,7 @@ export default function Ending(props) {
             <br />
             <Image
               className="d-block w-25 mx-auto"
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQFhXDruOmNDKw/profile-displayphoto-shrink_800_800/0?e=1602115200&v=beta&t=9S_Z_hEYbvFbrTl6z42taO8gvDYR0WWowPy0D60MEPg"
+              src="https://pbs.twimg.com/profile_images/919268792970174464/YwXyvojw_400x400.jpg"
               roundedCircle
             />
             <br />
