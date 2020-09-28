@@ -1,4 +1,4 @@
-import zero from "../../../public/static/img/buckstarterimgs/naturlich/0.png"
+import eleven from "../../../public/static/img/buckstarterimgs/naturlich/0.png"
 import one from "../../../public/static/img/buckstarterimgs/naturlich/1.jpg"
 import two from "../../../public/static/img/buckstarterimgs/naturlich/2.jpg"
 import three from "../../../public/static/img/buckstarterimgs/naturlich/3.jpg"
@@ -9,7 +9,7 @@ import seven from "../../../public/static/img/buckstarterimgs/naturlich/7.jpg"
 import eight from "../../../public/static/img/buckstarterimgs/naturlich/8.jpg"
 import nine from "../../../public/static/img/buckstarterimgs/naturlich/9.png"
 import ten from "../../../public/static/img/buckstarterimgs/naturlich/10.jpg"
-import eleven from "../../../public/static/img/buckstarterimgs/naturlich/11.png"
+import zero from "../../../public/static/img/buckstarterimgs/naturlich/11.png"
 
 
 export const naturlich = {

@@ -1,4 +1,4 @@
-import zero from "../../../public/static/img/buckstarterimgs/crowdster/0.png"
+import zero from "../../../public/static/img/buckstarterimgs/crowdster/0.jpg"
 import one from "../../../public/static/img/buckstarterimgs/crowdster/1.jpg"
 import two from "../../../public/static/img/buckstarterimgs/crowdster/2.png"
 import three from "../../../public/static/img/buckstarterimgs/crowdster/3.png"

@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/bluck/Documents/Buckstarter-Site/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Oxygen","variants":["400","700"]},{"family":"Montserrat","variants":["400","700"]}]},
+      options: {"plugins":[],"fonts":[{"family":"Oxygen","variants":["400","700"]},{"family":"Quicksand","variants":["400","700"]},{"family":"Montserrat","variants":["400","700"]},{"family":"Raleway","variants":["300","700"]}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

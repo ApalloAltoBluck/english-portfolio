@@ -1,6 +1,9 @@
 import React from "react"
 import { Container, Image, Col, Form, Button} from "react-bootstrap"
 
+import scott from "../../public/static/img/buckstarterimgs/dadphoto.jpg"
+
+
 export default function Ending(props) {
   return (
     <>
@@ -11,7 +14,7 @@ export default function Ending(props) {
             <br />
             <Image
               className="d-block w-25 mx-auto"
-              src="https://pbs.twimg.com/profile_images/919268792970174464/YwXyvojw_400x400.jpg"
+              src={scott}
               roundedCircle
             />
             <br />
@@ -39,8 +42,8 @@ export default function Ending(props) {
             back to you. Let's get started!
           </p>
 
-            <Col>
-          <Form>
+            <Col >
+          <Form method="POST" action="https://formspree.io/scott@buckstarter.com">
             <Form.Group controlId="exampleForm.ControlInput1">
               <Form.Label>Your Email</Form.Label>
               <Form.Control type="email" placeholder="name@example.com" />
@@ -55,7 +58,7 @@ export default function Ending(props) {
               <Form.Label>Message</Form.Label>
               <Form.Control as="textarea" rows="3" />
             </Form.Group>
-            <Button > Submit</Button>
+            <input type="submit" value="Send" />
           </Form>          
           </Col>
             <br />

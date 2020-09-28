@@ -12,15 +12,20 @@ import eight from "../../public/static/img/buckstarterimgs/icons/8.png"
 import nine from "../../public/static/img/buckstarterimgs/icons/9.png"
 import ten from "../../public/static/img/buckstarterimgs/icons/10.png"
 
+
+
 export default function Clients(props) {
   return (
     <>
+   
     <Container  data-sal="slide-up">
-        <h1 className="text-center">Our Clients</h1>
+      <br/>
+      <br/>
+
         <div className="mt-5"></div>
         <div className="d-flex flex-wrap">
         <Row className="justify-content-md-center">
-          <Col xs={3} xl={2}>
+          {/* <Col xs={3} xl={2}>
             <Image src={one} fluid />
           </Col>
           <Col xs={3}xl={2}>
@@ -49,21 +54,11 @@ export default function Clients(props) {
           </Col>
           <Col xs={4 } xl={2}>
             <Image src={nine} fluid />
-          </Col>
+          </Col> */}
         </Row>
         </div>
         </Container>
-        <div id="parallax-world-of-ugg">
-            <div className="parallax-one">
-            <Container>
-                <h1 className="hiveOperate text-center">We operate as a hive</h1>
-                <p className="hiveOperateSmall text-center">As a branding studio, we relentlessly focus on the end-product, the quality of the output. We
-cherry-pick the best designers, strategists, creative directors, media planners or buyers,
-producers, or directors needed to get the job done well. We swarm just the right talent around
-the brand. And we work fast, with little to no waste.</p>'
-            </Container>
-            </div>
-        </div>
+        
        
         
       </>

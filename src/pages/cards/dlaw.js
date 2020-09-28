@@ -1,8 +1,8 @@
-import zero from "../../../public/static/img/buckstarterimgs/DAGL/0.png"
+import zero from "../../../public/static/img/buckstarterimgs/DAGL/0.jpg"
 import one from "../../../public/static/img/buckstarterimgs/DAGL/1.png"
 import two from "../../../public/static/img/buckstarterimgs/DAGL/2.png"
 import three from "../../../public/static/img/buckstarterimgs/DAGL/3.jpg"
-import four from "../../../public/static/img/buckstarterimgs/DAGL/4.jpg"
+import four from "../../../public/static/img/buckstarterimgs/DAGL/4.png"
 
 
 export const dlaw = {

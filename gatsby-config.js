@@ -5,7 +5,17 @@
  */
 
 module.exports = {
+  
   plugins: [
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        height: 3,
+        prependToBody: false,
+        color: `#ffa500`,
+        footerHeight: 500,
+      }
+    },
     `gatsby-plugin-scroll-reveal`,
     {
       resolve: `gatsby-plugin-nprogress`,
@@ -13,7 +23,7 @@ module.exports = {
       // Setting a color is optional.
       color: `tomato`,
       // Disable the loading spinner.
-      showSpinner: false,
+      showSpinner: true,
     },
     },
     {
@@ -25,9 +35,17 @@ module.exports = {
             variants: [`400`, `700`]
           },
           {
+            family: `Quicksand`,
+            variants: [`400`, `700`]
+          },
+          {
             family: `Montserrat`,
             variants: [`400`, `700`]
-          }
+          },
+          {
+            family: `Raleway`,
+          variants: [`300`, `700`]
+          },
         ],
       }
     },

@@ -20,7 +20,7 @@ export default function Cards(props) {
         <Card className="bg-dark text-white" onClick={handleShow}>
           <Card.Img src={props.tileImage} alt="Card image" />
           <Card.ImgOverlay>
-            <Card.Title>{props.tileTitle}</Card.Title>
+            <Card.Title></Card.Title>
           </Card.ImgOverlay>
         </Card>
       </Col>
