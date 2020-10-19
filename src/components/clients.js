@@ -1,16 +1,7 @@
 import React from "react"
 import { Container, Image, Row, Col } from "react-bootstrap"
 
-import one from "../../public/static/img/buckstarterimgs/icons/1.png"
-import two from "../../public/static/img/buckstarterimgs/icons/2.png"
-import three from "../../public/static/img/buckstarterimgs/icons/3.jpg"
-import four from "../../public/static/img/buckstarterimgs/icons/4.png"
-import five from "../../public/static/img/buckstarterimgs/icons/5.png"
-import six from "../../public/static/img/buckstarterimgs/icons/6.png"
-import seven from "../../public/static/img/buckstarterimgs/icons/7.png"
-import eight from "../../public/static/img/buckstarterimgs/icons/8.png"
-import nine from "../../public/static/img/buckstarterimgs/icons/9.png"
-import ten from "../../public/static/img/buckstarterimgs/icons/10.png"
+
 
 
 

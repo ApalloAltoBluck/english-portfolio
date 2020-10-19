@@ -74,15 +74,6 @@ const onRouteUpdate = (location, prevLocation) => {
 };
 
 const navigate = (to, options = {}) => {
-  // Support forward/backward navigation with numbers
-  // navigate(-2) (jumps back 2 history steps)
-  // navigate(2)  (jumps forward 2 history steps)
-  if (typeof to === `number`) {
-    _history.globalHistory.navigate(to);
-
-    return;
-  }
-
   let {
     pathname
   } = (0, _gatsbyLink.parsePath)(to);
@@ -242,9 +233,10 @@ class RouteAnnouncer extends _react.default.Component {
   }
 
   render() {
-    return /*#__PURE__*/_react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
-      ref: this.announcementRef
-    }));
+    return (/*#__PURE__*/_react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
+        ref: this.announcementRef
+      }))
+    );
   }
 
 } // Fire on(Pre)RouteUpdate APIs
@@ -276,9 +268,10 @@ class RouteUpdates extends _react.default.Component {
   }
 
   render() {
-    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, this.props.children, /*#__PURE__*/_react.default.createElement(RouteAnnouncer, {
-      location: location
-    }));
+    return (/*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, this.props.children, /*#__PURE__*/_react.default.createElement(RouteAnnouncer, {
+        location: location
+      }))
+    );
   }
 
 }

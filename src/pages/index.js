@@ -6,19 +6,23 @@ import Welcome from "../components/welcome";
 import Clients from "../components/clients";
 import Ending from "../components/ending";
 
-import { bnc } from "./cards/bnc";
-import { crowdster } from "./cards/crowdster";
-import { ica } from "./cards/ica";
-import { naturlich } from "./cards/naturlich";
-import { dlaw } from "./cards/dlaw";
-import { siggi } from "./cards/siggis";
-import { upcycle } from "./cards/upcycle";
-import { watergarden } from "./cards/watergarden";
+import { bnc } from "../../static/cards/bnc";
+import { crowdster } from "../../static/cards/crowdster";
+import { ica } from "../../static/cards/ica";
+import { naturlich } from "../../static/cards/naturlich";
+import { dlaw } from "../../static/cards/dlaw";
+import { siggi } from "../../static/cards/siggis";
+import { upcycle } from "../../static/cards/upcycle";
+import { watergarden } from "../../static/cards/watergarden";
 
 import "./style.css"; // Tell webpack that Button.js uses these styles
 import { Container, Row, Image, Carousel, Col, Figure } from "react-bootstrap";
 
-import field from "../../public/static/img/buckstarterimgs/logofield.png"
+import field from "../../static/cards/buckstarterimgs/logofield.png"
+
+
+
+
 
 export default function Home() {
   return (

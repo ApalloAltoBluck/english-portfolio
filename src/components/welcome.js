@@ -1,11 +1,11 @@
 import React from "react"
 import { Image, Row, Col, Container } from "react-bootstrap"
 
-import branding from "../../public/static/img/buckstarterimgs/branding.png"
-import innovation from "../../public/static/img/buckstarterimgs/innovation.png"
-import production from "../../public/static/img/buckstarterimgs/production.png"
+import branding from "../../static/cards/buckstarterimgs/branding.png"
+import innovation from "../../static/cards/buckstarterimgs/innovation.png"
+import production from "../../static/cards/buckstarterimgs/production.png"
 
-import logo from "../../public/static/img/buckstarterimgs/buckstarter.png"
+import logo from "../../static/cards/buckstarterimgs/buckstarter.png"
 
 export default function Welcome(props) {
   return (

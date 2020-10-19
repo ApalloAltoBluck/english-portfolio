@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Image, Col, Form, Button} from "react-bootstrap"
 
-import scott from "../../public/static/img/buckstarterimgs/dadphoto.jpg"
+import scott from "../../static/cards/buckstarterimgs/dadphoto.jpg"
 
 
 export default function Ending(props) {
