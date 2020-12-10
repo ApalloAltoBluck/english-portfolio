@@ -2,158 +2,73 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Cards from "../components/cards";
-import Welcome from "../components/welcome";
-import Clients from "../components/clients";
-import Ending from "../components/ending";
+import Header from "../components/header";
 
-import { bnc } from "../../static/cards/bnc";
-import { crowdster } from "../../static/cards/crowdster";
-import { ica } from "../../static/cards/ica";
-import { naturlich } from "../../static/cards/naturlich";
-import { dlaw } from "../../static/cards/dlaw";
-import { siggi } from "../../static/cards/siggis";
-import { upcycle } from "../../static/cards/upcycle";
-import { watergarden } from "../../static/cards/watergarden";
+
+
+import { autechre } from "../../static/articles/autechre";
+import { comparecontrast } from "../../static/articles/comparecontrast";
+import { thesoloist } from "../../static/articles/thesoloist";
+
 
 import "./style.css"; // Tell webpack that Button.js uses these styles
 import { Container, Row, Image, Carousel, Col, Figure } from "react-bootstrap";
-
-import field from "../../static/cards/buckstarterimgs/logofield.png"
-
-
 
 
 
 export default function Home() {
   return (
     <>
-      <Welcome></Welcome>
-      <div id="parallax-world-of-ugg">
-        <div className="parallax-one">
-          <Container>
-            <h1 className="hiveOperate text-center">We operate as a hive</h1>
-            <p className="hiveOperateSmall text-center">
-              As a branding studio, we relentlessly focus on the end-product,
-              the quality of the output. We cherry-pick the best designers,
-              strategists, creative directors, media planners or buyers,
-              producers, or directors needed to get the job done well. We swarm
-              just the right talent around the brand. And we work fast, with
-              little to no waste.
-            </p>
-            '
-          </Container>
-        </div>
-      </div>
+      <Header />
       <Container>
-      <div className="">
-              <br />
-              <h2 className="text-center">The Work</h2>
-              <Col lg={6} xl={8} className="mx-auto">
-                <br />
-                <p className="existance text-center">
-                  Why should a brand exist? What purpose does it serve? Where is
-                  its heat? This is a craft of careful identification and
-                  distillation. Our work shares three common principles:
-                  <br />
-                  <i>Simplicity, Clarity, Allure.</i>
-                </p>
-                <Row xl={7}>
-          <Row xl={4} >
-            {/* For the video links, only use the numbers at the end of the link */}
-            <Cards
-              className=""
-              tileTitle={"Black News Channel"}
-              tileImage={bnc.thumbnail}
-              tileDescription={bnc.description}
-              images={bnc.assets}
-              videos={[]}
-              fluid
-            />
-
-            <Cards
-              tileImage={siggi.thumbnail}
-              tileDescription={siggi.description}
-              tileTitle={"Siggi's"}
-              images={siggi.assets}
-              videos={siggi.videos}
-              className="my-auto"
-              fluid
-            />    
-            <Cards
-              tileImage={naturlich.thumbnail}
-              tileTitle={"Naturlich"}
-              tileDescription={naturlich.description}
-              images={naturlich.assets}
-              videos={[]}
-              fluid
-            />
-
-
-            <Cards
-              tileImage={dlaw.thumbnail}
-              tileTitle={"Amy D'Agastino Law"}
-              tileDescription={dlaw.description}
-              images={dlaw.assets}
-              videos={dlaw.videos}
-              fluid
-            />
-
+        <div className="">
+          <br />
+          <h3 className="text-center">Recent Works:</h3>
+          <Col lg={6} xl={8} className="mx-auto">
+            <br />
+            <p className="existance text-center">
+              I like to write about my passions. The act of researching something and presenting it is incredibly gratifying for me. Here are some of my works: 
+            </p>
+            <Row xl={10} >
+              <Cards
+                // tileImage={upcycle.thumbnail}
+                tileTitle={autechre.title}
+                tileDate={autechre.date}
+                tileDescription ={autechre.description}
+                tileLink = {autechre.markdown}
+                fluid
+              />
+              <Cards
+                // tileImage={upcycle.thumbnail}
+                tileTitle={comparecontrast.title}
+                tileDate={comparecontrast.date}
+                tileDescription ={comparecontrast.description}
+                tileLink = {comparecontrast.markdown}
+                fluid
+              />
 <Cards
-              tileImage={upcycle.thumbnail}
-              tileTitle={"Upcycle"}
-              tileDescription={upcycle.description}
-              images={upcycle.assets}
-              videos={[]}
-              fluid
-            />
-
-
-            <Cards
-              tileImage={ica.thumbnail}
-              tileTitle={"International Copper Association"}
-              tileDescription={ica.description}
-              images={ica.assets}
-              videos={ica.videos}
-              fluid
-            />
-
-            <Cards
-              tileImage={crowdster.thumbnail}
-              tileTitle={"Crowdster"}
-              tileDescription={crowdster.description}
-              images={crowdster.assets}
-              videos={[]}
-              fluid
-            />
-
-            <Cards
-              tileTitle={"Watergarden"}
-              tileImage={watergarden.thumbnail}
-              tileDescription={watergarden.description}
-              images={watergarden.assets}
-              videos={[]}
-              fluid
-            />
-          </Row>
-        </Row>
-                <hr />
-                <h3 className="text-center">Past experience</h3>
-              </Col>
-            </div>
-      <Image src={field} width="60%" fluid /> 
-      {/* <Row xl={7}>
-        <div className="text-center" >
-          <p>We’ve packed 30 years of brand-building experience with some of the worlds
-    most cherished brands &amp; companies into a more nimble and efficient operating model
-    for today.</p>
+                // tileImage={upcycle.thumbnail}
+                tileTitle={thesoloist.title}
+                tileDate={thesoloist.date}
+                tileDescription ={thesoloist.description}
+                tileLink = {thesoloist.markdown}
+                fluid
+              />
+            </Row>
+            <Row xl={10} >
+              
+            </Row>
+            <hr />
+            <h3 className="text-center">Reflection Essay</h3>
+            <p>I felt that in these two pieces, I took more risks by working in genres I have little writing experience with. This was especially true when writing about fashion, as I have very little experience reading and writing fashion reviews. There is an inherent difficulty reviewing a fashion show you did not attend. Watching a runway show, is much different than attending a runway show. There can be a sense of loss of intimacy by looking at photos or scraping through what little footage I could find of the show itself. The same went with working with film. Despite this, I felt as though I was able to accurately analyze both genres. In reading other analyses of both film and fashion, I feel as though I was also able to expand my own vocabulary about these genres. </p>
+            <p>I hope that over the course of the assignment, the reader was able to see how much of a creative process this semester was. Whether it was the “Compare and Contrast” piece we did, or even pieces I didn’t exhibit like the biography, working on assignment this semester was both fun and stimulating.  Over the course of peer reviews and workshops, it was clear that other students felt this way too. </p>
+            <p>I also hope that audiences appreciate the minimalistic user interface I set up, something I programmed from the ground up using JavaScript. I felt as though that, with most website builders, I wasn’t given the creative tools I wanted to truly build my own website to my own aeshetic. However, the skills I had gained this semester in my computer science courses enabled me to find out how to build my own blogging platform and customize it down to each element. Because I had spent so much time working on these assignments this year, I didn’t want to rely on Weebly or Wix to portray my work in a capacity I could look to in the future. As I progress further throughout my career, I plan on including more writing examples, and eventually, present them to employers on the website. </p>
+            <p>Despite the virtual nature of this semester, I feel as though I have produced some of my best writing content yet. Under the supervision of Dr. Clark, I was able to explore my own voice and improve the overall integrity of my output. I feel confident that although this website will grow over the years, some of my most important writing will have been produced this semester.</p>
+            </Col>
         </div>
-        </Row> */}
         
+
       </Container>
-
-      <Clients data-sal="slide-up"></Clients>
-
-      <Ending></Ending>
     </>
   );
 }
