@@ -16,7 +16,15 @@ module.exports = {
         footerHeight: 500,
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
     `gatsby-plugin-scroll-reveal`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-nprogress`,
     options: {
@@ -50,4 +58,7 @@ module.exports = {
       }
     },
   ]
+}
+module.exports = {
+  pathPrefix: "/english-portfolio",
 }

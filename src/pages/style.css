@@ -4,6 +4,12 @@
 
   font-family: "Raleway";
   src: url("Raleway.ttf");
+
+  font-family: "PlayfairDisplay";
+  src: url("PlayfairDisplay.ttf");
+
+  font-family: "ZillaSlab";
+  src: url("ZillaSlab-Regular.ttf");
 }
 
 
@@ -12,6 +18,9 @@
   font-size:1.3em;
 }
 
+.card-subtitle{
+  font-family: ZillaSlab
+}
 .welcome {
   height: 100vh;
 }
@@ -25,37 +34,27 @@
 }
 
 h2 {
-  font-family: Monako;
+  font-family: PlayfairDisplay;
   font-size: 4.1em;
 }
 p {
-  font-family: Raleway;
+  font-family: ZillaSlab;
 }
 
 h1 {
-  font-family: Raleway;
+  font-family: PlayfairDisplay;
   font-size: 2.1em;
 }
 h3 {
-  font-family: Monako;
+  font-family: PlayfairDisplay;
 }
 
-.backTile {
-  background-color: #eeeeee;
-  border-bottom-left-radius: 1200px 40px;
-  border-bottom-right-radius: 1200px 40px;
-  border-top-left-radius: 1200px 40px;
-  border-top-right-radius: 1200px 40px;
-}
-.img-fluid {
-  height: auto;
-  margin: auto;
-  display: flex;
+
+.card-title {
+  font-family: PlayfairDisplay;
+  font-weight: bold;
 }
 
-.col-8 {
-  margin: auto;
-}
 
 .grayboi {
   background-clip: border-box;
@@ -68,74 +67,6 @@ h3 {
   padding: 0px !important;
 }
 
-/* Override UGG site */
-#main {
-  width: 100%;
-  padding: 0;
-}
-.content-asset p {
-  margin: 0 auto;
-}
-.breadcrumb {
-  display: none;
-}
-
-/* Helpers */
-/**************************/
-.margin-top-10 {
-  padding-top: 10px;
-}
-.margin-bot-10 {
-  padding-bottom: 10px;
-}
-
-/* Section - Block */
-/**************************/
-#parallax-world-of-ugg .block {
-  background: white;
-  padding: 60px;
-  width: 820px;
-  margin: 0 auto;
-  text-align: justify;
-}
-#parallax-world-of-ugg .block-gray {
-  background: #f2f2f2;
-  padding: 60px;
-}
-#parallax-world-of-ugg .section-overlay-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.7;
-}
-
-/* Section - Parallax */
-/**************************/
-#parallax-world-of-ugg .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url("./slice.png");
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-/* Extras */
-/**************************/
-#parallax-world-of-ugg .line-break {
-  border-bottom: 1px solid black;
-  width: 150px;
-  margin: 0 auto;
-}
 
 /* Media Queries */
 /**************************/
@@ -194,57 +125,19 @@ h3 {
   margin: auto;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-  filter: invert(100%);
-  height: 15% !important;
-  top: 40%;
-}
 
-.cardsstyle {
-  margin-left: 3%;
-  margin-top: 3%;
-}
 
-.subtitle {
-  margin-top: 1%;
-}
 
 .existance{
     font: size 1.3em;
 }
 
-.card {
-  border: none;
-  
+
+a {
+  text-decoration: none; 
+  color: black; 
 }
 
-.card-img {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-div {
-  overflow:hidden;
-}
-
-.welcomehive{
-  font-size:2.3em;
-}
-
-body:after{
-  content: "beta";
-  position: fixed;
-  width: 80px;
-  height: 25px;
-  background: #EE8E4A;
-  top: 7px;
-  left: -20px;
-  text-align: center;
-  font-size: 13px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fff;
-  line-height: 27px;
-  transform:rotate(-45deg);
+.header {
+  margin-left: 1.5em;
 }

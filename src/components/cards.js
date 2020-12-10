@@ -10,18 +10,29 @@ export default function Cards(props) {
 
   let videolinks = []
 
-  props.videos.map(video =>
-    videolinks.push("https://player.vimeo.com/video/" + video)
-  )
+  // props.videos.map(video =>
+  //   videolinks.push("https://player.vimeo.com/video/" + video)
+  // )
+
+  //            {props.images.map(image => (
+  //  <Carousel.Item>
+  //  <img className="d-block w-100" src={image} />
+  //  <Carousel.Caption>{/* <h3>{image}</h3> */}</Carousel.Caption>
+  //</Carousel.Item>
+// ))}
 
   return (
     <>
-      <Col xs={6} md={4} className="mx-auto d-block cardsstyle">
-        <Card className="bg-dark text-white" onClick={handleShow}>
-          <Card.Img src={props.tileImage} alt="Card image" />
-          <Card.ImgOverlay>
-            <Card.Title></Card.Title>
-          </Card.ImgOverlay>
+      <Col className="">
+        <Card >
+          <Card.Body>
+            <Card.Title>{props.tileTitle}</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">{props.tileDate}</Card.Subtitle>
+            <Card.Text>
+              {props.tileDescription}
+            </Card.Text>
+            <Card.Link href={"/blog/" + props.tileLink}>Read Here</Card.Link>
+          </Card.Body>
         </Card>
       </Col>
 
@@ -33,30 +44,11 @@ export default function Cards(props) {
       >
         <Modal.Body>
           <Carousel>
-            {props.images.map(image => (
-              <Carousel.Item>
-                <img className="d-block w-100" src={image} />
-                <Carousel.Caption>{/* <h3>{image}</h3> */}</Carousel.Caption>
-              </Carousel.Item>
-            ))}
-            {videolinks.map(video => (
-              <Carousel.Item>
-                <iframe
-                  className="d-block w-100"
-                  src={video}
-                  width="640"
-                  height="360"
-                  frameborder="0"
-                  allow="autoplay; fullscreen"
-                  allowfullscreen
-                ></iframe>
-                <Carousel.Caption>{/* <h3>{image}</h3> */}</Carousel.Caption>
-              </Carousel.Item>
-            ))}
+
           </Carousel>
           <br></br>
-          <h2>Client Spotlight: {props.tileTitle} </h2>
-          <p>{props.tileDescription}</p>
+          {/* <h2>Client Spotlight: {props.tileTitle} </h2>
+          <p>{props.tileDescription}</p> */}
         </Modal.Body>
       </Modal>
     </>
