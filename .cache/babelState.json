@@ -4,12 +4,15 @@
       "plugins": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "name": "babel-plugin-lodash",
           "options": {}
         },
         {
           "name": "C:\\Users\\bluck\\english-portfolio\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
 =======
+=======
+>>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "name": "/Users/bluck/Documents/Buckstarter-Site/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
 >>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "options": {}
@@ -40,12 +43,15 @@
       "plugins": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "name": "babel-plugin-lodash",
           "options": {}
         },
         {
           "name": "C:\\Users\\bluck\\english-portfolio\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
 =======
+=======
+>>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "name": "/Users/bluck/Documents/Buckstarter-Site/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
 >>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "options": {}
@@ -76,12 +82,15 @@
       "plugins": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "name": "babel-plugin-lodash",
           "options": {}
         },
         {
           "name": "C:\\Users\\bluck\\english-portfolio\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
 =======
+=======
+>>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "name": "/Users/bluck/Documents/Buckstarter-Site/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
 >>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "options": {}
@@ -112,12 +121,15 @@
       "plugins": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "name": "babel-plugin-lodash",
           "options": {}
         },
         {
           "name": "C:\\Users\\bluck\\english-portfolio\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
 =======
+=======
+>>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "name": "/Users/bluck/Documents/Buckstarter-Site/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
 >>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
           "options": {}

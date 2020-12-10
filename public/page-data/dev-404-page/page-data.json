@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/blog/thesoloist"},{"path":"/blog/comparecontrast"},{"path":"/blog/autechre"},{"path":"/404/"},{"path":"/"},{"path":"/404.html"}]}},"pageContext":{}},"staticQueryHashes":[]}
+=======
+{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/"}]}},"pageContext":{}}}
+>>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.
 =======
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/"}]}},"pageContext":{}}}
 >>>>>>> parent of ae90fd0e... fixed it so index.html is outputted.

@@ -13,3 +13,6 @@ css/reveal.min.css
 js/reveal.min.js
 .vs/slnx.sqlite
 index.html
+.cache/babelState.json
+package-lock.json
+public/page-data/dev-404-page/page-data.json
